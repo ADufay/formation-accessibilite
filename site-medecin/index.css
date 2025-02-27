@@ -1,6 +1,23 @@
+@keyframes changeBackground {
+  0% {
+    background-color: white;
+  }
+  100% {
+    background-color: lightgray;
+  }
+}
+
 article {
   max-width: 1000px;
   text-wrap: wrap;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+article:hover {
+  animation: changeBackground 0.2s linear forwards;
 }
 
 p {
