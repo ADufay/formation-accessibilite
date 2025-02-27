@@ -2,3 +2,13 @@ article {
   max-width: 1000px;
   text-wrap: wrap;
 }
+
+p {
+  line-height: 1.5;
+}
+
+.video-iframe {
+  max-width: 100%;
+  width: 1264px;
+  height: 711px;
+}
