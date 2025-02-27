@@ -7,16 +7,20 @@
     <title>Contact</title>
   </head>
   <body>
-    <h1>Contact</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="horaires.html">Horaires</a>
+    </nav>
+    <h1>Pour nous contacter:</h1>
     <form class="formulaire-contact">
       <label for="lastname">Nom:</label>
-      <input type="text" id="lastname" name="lastname" placeholder="Entrez votre nom" />
+      <input type="text" id="lastname" name="lastname" aria-required="false" placeholder="Entrez votre nom" />
       <label for="firstname">Prénom:</label>
-      <input type="text" id="firstname" name="firstname" placeholder="Entrez votre prénom" />
+      <input type="text" id="firstname" name="firstname" aria-required="false" placeholder="Entrez votre prénom" />
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="Entrez votre email" />
+      <input type="email" id="email" name="email" aria-required="true" placeholder="Entrez votre email" />
       <label for="message">Message:</label>
-      <textarea id="message" name="message" placeholder="Entrez votre message"></textarea>
+      <textarea id="message" name="message" aria-required="true" placeholder="Entrez votre message"></textarea>
       <button class="button" type="submit">Envoyer</button>
     </form>
   </body>
